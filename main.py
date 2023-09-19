@@ -4,8 +4,8 @@ import config
 
 topic = config.topic
 date = config.date
-
 api_key = config.api_key
+
 url = f"https://newsapi.org/v2/everything?q={topic}" \
       f"&from={date}&sortBy=publishedAt&apiKey=" \
       f"{api_key}"
